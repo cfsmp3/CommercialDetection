@@ -1,0 +1,16 @@
+MANIFEST.in
+requirements.txt
+setup.py
+PyDejavu.egg-info/PKG-INFO
+PyDejavu.egg-info/SOURCES.txt
+PyDejavu.egg-info/dependency_links.txt
+PyDejavu.egg-info/requires.txt
+PyDejavu.egg-info/top_level.txt
+dejavu/__init__.py
+dejavu/database.py
+dejavu/database_sql.py
+dejavu/decoder.py
+dejavu/fingerprint.py
+dejavu/recognize.py
+dejavu/testing.py
+dejavu/wavio.py

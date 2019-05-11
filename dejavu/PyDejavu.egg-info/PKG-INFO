@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: PyDejavu
+Version: 0.1.3
+Summary: Dejavu: Audio Fingerprinting in Python
+Home-page: http://github.com/tuxdna/dejavu
+Author: Will Drevo
+Author-email: will.drevo@gmail.com
+License: MIT License
+Description: 
+        Audio fingerprinting and recognition algorithm implemented in Python
+        
+        See the explanation here: 
+        
+        `http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/`__
+        
+        Dejavu can memorize recorded audio by listening to it once and fingerprinting 
+        it. Then by playing a song and recording microphone input or on disk file, 
+        Dejavu attempts to match the audio against the fingerprints held in the 
+        database, returning the song or recording being played.
+        
+        __ http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/
+        
+Keywords: python,audio,fingerprinting,music,numpy,landmark
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
